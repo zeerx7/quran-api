@@ -1,0 +1,8 @@
+[build]
+  publish = "public" # Gantilah dengan direktori tempat berkas-berkas statis Anda berada
+  functions = "api" # Direktori tempat Anda akan menyimpan server Express.js Anda
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
